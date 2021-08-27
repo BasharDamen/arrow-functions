@@ -118,9 +118,9 @@ let sum = function(a, b, c, d) {
 
 let objectLit = function() {
   return {
-    key1: 'value1',
-    key2: 'value2',
-    key3: 'value3',
+    key1: 'Hello',
+    key2: 'I\'m',
+    key3: 'Bashar',
   };
 };
 
@@ -190,17 +190,17 @@ Student.prototype.scope = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scope());
+console.log(joe.scope());
 
 Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scopeArrow());
+console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+//      This refers to the properities of the constructured function realted to Joe
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+//      This refers to the properities of the constructured arrow function realted to Joe
 // 3. Explain why "this" is different when an arrow function is used.
-//
+//      In the arrow function, the details related to the object will not be shown in the console.
