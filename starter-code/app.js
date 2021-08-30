@@ -199,8 +199,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//      undefined
+//      undefined for the line 193, and it showing the "Joe" properities in line 198. 
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//      undefined
+//      undefined for line 198, and it showing the "window" properities in line 195. 
 // 3. Explain why "this" is different when an arrow function is used.
 //      using arrow function, "this" will be considered as a globally invoked, so, it will show up in the console the properities of the window as whole.
